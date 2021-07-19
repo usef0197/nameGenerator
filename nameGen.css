@@ -1,5 +1,4 @@
 * { box-sizing: border-box; }
-
 body {
     padding: 0;
     margin: 0;
@@ -7,13 +6,66 @@ body {
     background-color: slategray;
     color: #334;
     font-family: Helvetica, Arial, sans-serif;
+    background-image: url(./assets/img1.jpg) ;
+    background-size: cover;
 }
 #wrapper {
-    width: 80%;
+    width: 50%;
+    height: 55em;
     margin: 0 10% 0 10%;
-    background-color: lightsteelblue;
+    background-image: url(./assets/25235.jpg);
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
 }
-
+header {
+    padding: 2%;
+}
+main {
+    padding: 2%;
+}
 footer {
     padding: 2%;
+    color: white;
+}
+
+#nameInput {
+    margin:25px;
+    padding: 4px;
+    font-size: medium;
+    
+}
+
+#inputName {
+    margin:25px;
+    padding: 4px;
+    font-size: medium;
+
+}
+
+#numToWin {
+    margin:25px;
+    padding: 4px;
+    font-size: medium;
+
+}
+
+#removePrevWins {
+    margin:25px;
+    padding: 4px;
+    font-size: medium;
+
+}
+
+#selectWinner {
+    margin:25px;
+    padding: 4px;
+    font-size: medium;
+
+}
+
+#reset{
+    margin:25px;
+    padding: 4px;
+    font-size: medium; 
 }
